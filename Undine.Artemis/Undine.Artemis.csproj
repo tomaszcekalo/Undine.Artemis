@@ -7,7 +7,17 @@
 	  <Description>Undine bindings for Artemis ECS</Description>
 	  <Version>1.0.0</Version>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <RepositoryUrl>https://github.com/tomaszcekalo/Undine.Artemis</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/tomaszcekalo/Undine.Artemis</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Artemis" Version="2.0.0" />
